@@ -1,0 +1,10 @@
+*.zip
+*.pyc
+*.dtt
+*.rls
+*.DTT
+*.RLS
+research
+.idea
+loop_over_data.py
+loop_over_data_randomise.py
