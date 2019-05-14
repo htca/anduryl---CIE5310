@@ -26,7 +26,7 @@ def plotting_itemwise(CQ_values, CQ_assess, TQ_assess, TQ_values, experts, weigh
         plt.figure(figsize=(15, 7.5))
         for k in range(len(expnames)):
             plt.plot(valuestoplot[k], [expnames[k] for j in range(len(valuestoplot[k]))], "-o")
-        plt.title((CQ_value.name + " " + weight_type + opt_text).decode('unicode-escape'))
+        plt.title((CQ_value.name + " " + weight_type + opt_text))
         plt.ylabel(u"Expert")
         plt.savefig(output_path + CQ_value.name + ".png")
 
@@ -41,7 +41,7 @@ def plotting_itemwise(CQ_values, CQ_assess, TQ_assess, TQ_values, experts, weigh
         plt.figure(figsize=(15, 7.5))
         for k in range(len(expnames)):
             plt.plot(valuestoplot[k], [expnames[k] for j in range(len(valuestoplot[k]))], "-o")
-        plt.title((CQ_value.name + " " + weight_type + opt_text).decode('unicode-escape'))
+        plt.title((CQ_value.name + " " + weight_type + opt_text))
         plt.ylabel(u"Expert")
         plt.savefig(output_path + CQ_value.name + ".png")
 

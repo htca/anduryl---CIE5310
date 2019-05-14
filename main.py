@@ -17,7 +17,6 @@ from importascii import importfiles
 from plot_robustness import plot_robust
 from plotting_itemwise import plotting_itemwise
 from print_data import print_data
-from randomise import randomise
 from setupinput import setupinput
 from check_input import check_input
 
@@ -122,7 +121,7 @@ if __name__ == "__main__":
     robust = False  # robust analyses to execute
     N_max_it = 5  # number to exclude in robustness analysis items
     N_max_ex = 1  # number to exclude in robustness analysis experts
-    Plotting = False  # create graphs
+    Plotting = True  # create graphs
     Printing = True  # create numerical data
     Output = [Plotting, Printing]
     output_items = [output_path, output_file]
