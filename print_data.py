@@ -14,13 +14,13 @@ def print_data(outputfile):
                                                                                expert.W[index][4]))
 
     print("CQ_assesing quantiles")
-    print(" Id     Low      5%       50%      95%      high")
+    print(" Id     Low        5%         50%        95%        high")
     for CQ_value in globals.CQ_values:
         print('{:3} {:10.5f} {:10.5f} {:10.5f} {:10.5f} {:10.5f}'.format(CQ_value.id, CQ_value.DM[0], CQ_value.DM[1],
                                                                          CQ_value.DM[2], CQ_value.DM[3],
                                                                          CQ_value.DM[4]))
     print("TQ_assess quantiles")
-    print(" Id     Low      5%       50%      95%      high")
+    print(" Id     Low        5%         50%        95%        high")
     for TQ_asses in globals.TQ_values:
         print('{:3} {:10.5f} {:10.5f} {:10.5f} {:10.5f} {:10.5f}'.format(TQ_asses.id, TQ_asses.DM[0], TQ_asses.DM[1],
                                                                          TQ_asses.DM[2], TQ_asses.DM[3],

@@ -118,7 +118,7 @@ if __name__ == "__main__":
     cal_power = 1
     optimization = False  # True or False
     weight_type = 'global'  # choose from 'equal', 'item', 'global', 'user'
-    user_w = [0, 0, 0, 0, .4, .6, 0, 0, 0]
+    user_w = [0, 0, 0, 0, .4, .6, 0, 0, 0] # will be normalised by Anduryl
     robust = False  # robust analyses to execute
     N_max_it = 5  # number to exclude in robustness analysis items
     N_max_ex = 1  # number to exclude in robustness analysis experts
